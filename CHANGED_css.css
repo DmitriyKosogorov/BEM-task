@@ -1,0 +1,125 @@
+body{
+	padding:0px; 
+	margin:0;
+	background:tan; 
+	font-size:14px; 
+	font-family:Arial, 
+	Sans-serif;
+ }
+.basic {
+	width:960px;
+	min-height:500px; 
+	margin:0 auto;
+	padding:20px 20px 20px 20px; 
+	background:#fff;
+	}
+img {
+	border:0;
+}
+a {
+	color:#ffcc99;
+	}
+a:hover {
+	text-decoration:none;
+	}
+ 
+/*Шапка сайта*/
+.basic__head-site {
+	height:70px;
+	}
+.basic__i
+{
+	font-size: 30px;
+	color: burlywood
+}
+li.none-bg {
+	background:none!important;
+	}
+ 
+/*Верхнее меню сайта*/
+.basic__menu-top{
+}
+
+.basic__logo{
+}
+
+.basic__bg-1 {
+	width:950px;
+	height:64px; 
+	background: wheat
+	url(images/m1.png)
+	repeat-x; 
+	padding:0 0 0 10px;
+	}
+.basic__bg-2 {
+	width:940px;
+	height:8px;
+	background:tan;
+	margin:0 auto;
+	}
+.basic__bg-1 ul {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+	}
+.basic__bg-1 ul li {
+	float:left;
+	padding:0 2px 0 0;
+	}
+.basic__bg-1 ul li a {
+	display:block;
+	height:40px; 
+	padding:24px 27px 0 27px; 
+	color:#6f4e37;
+	text-decoration:none;
+	text-transform:uppercase;
+	}
+.basic__bg-1 ul li a:hover {
+	color:#fff; 
+	background:#6f4e37;
+	}
+ 
+/*Контент*/
+.content {
+	width:960px;
+	padding:20px 0 0 0;
+	}
+ 
+/*Контент*/
+.content__center {
+	float:center; 
+	width:940px; 
+	padding:0 0 0 20px; 
+	text-align:justify;
+
+	}
+.content__center h1 {
+	text-transform:uppercase; 
+	color:#6f4e37;
+	font-weight:normal;
+	margin-top:0;
+	}
+ 
+ 
+/*Подвал*/
+.myclr {
+	clear:both;
+	float:none;
+	width:100%;
+	height:1px;
+	}
+.podval {
+	border-top:10px solid tan;
+	margin-top:20px;
+	}
+.podval__slovo {
+	width:940px; 
+	height:5px; 
+	margin:0 auto;
+	background:#pink;
+	}
+.podval__p1 {
+	float:center; 
+	width:950px;
+	padding:15px 0 0 0;
+	}
